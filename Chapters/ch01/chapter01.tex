@@ -2,10 +2,25 @@
 
 \section{The Simplest Unary Operation}
 
-\subsection{The Positive Integers and The Sucessor numbers} % TODO: figure out the latter part
+\subsection{The Positive Integers}
 The set of positive integers, $\mathbb{N}^*$, is defined as satisfying the following conditions:
 \begin{enumerate}
-	\item For any aribitrary positive integer $a$, its successor, $a^+$ is a positive integer as well.
+	\item For any arbitrary positive integer $a$, its successor, $a^+$ is a positive integer as well.
 	\item There exists a positive integer such that no positive integer's successor is that integer. Notate this as $1$.
 	\item Except for $1$, every positive integer is the successor of a positive integer.
+	\item If $1 \in S$, and whenever $n \in S$, $n^+ \in S$ as well; then $S = \mathbb{N}^*$.
 \end{enumerate}
+
+But problems arise. Until now, we might have wondered how to express things like ``1's successor," ``1's successor's successor," and so on.
+Could they be expressed as $1^+$, $1^{++}$, etc?
+
+For a long time, people defined [TODO] as follows: $1^+=2, 2^+=3, 3^+=4, 4^+=5, 5^+=6, 6^+=7, 7^+=8, 8^+=9, 9^+=10.$ 
+We use two digits in ``10" to refer to the successor of the number 9.
+
+Then, $10^+=11, 11^+=12, \ldots, 19^+=20, \ldots, 99^+=100, \ldots$
+Thus, we now have a way to theoretically express any positive integer.
+
+However, this simple operation by itself is practically useless. The really useful stuff is the following...
+
+\subsection{Addition}
+
