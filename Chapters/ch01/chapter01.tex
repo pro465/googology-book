@@ -23,4 +23,34 @@ Thus, we now have a way to theoretically express any positive integer.
 However, this simple operation by itself is practically useless. The really useful stuff is the following...
 
 \subsection{Addition}
+Addition is defined as follows, expressed using the symbol ``+".
+	$$ a+1=a^+ $$
+	$$ a+b^+=(a+b)^+ $$
+very simple indeed! But this definition is too abstract, in fact we can define it like this:
+	$$ a+b=a^{++++\ldots+} $$
+(with $b$ ``+"es). This new definition is clearer.
 
+However, sometimes addition isn't enough. Then we need...
+
+\subsection{Multiplication}
+Multiplication is defined as follows, expressed using the symbol ``$\times$".
+	$$ a \times 1 = a $$
+	$$ a \times b^+ = a \times b + a $$
+This is also a very simple definition. A bit more accessible definition:
+        $$ a \times b = a + a + a + \ldots + a $$ (with ``b" many ``a"s.)
+From this, one can find that $10\times 10 = 100, 100\times 10=1000, 100\ldots0$ (with $n$ zeroes)
+$\times 10 = 100\ldots0$ (with $n+1$ zeroes.) This leads us into another operation:
+
+\subsection{Exponentiation}
+Exponentiation is usually denoted by the symbol ``$\textrm{\^{}}$", and defined as:
+	$$ a\textrm{\^{}} 1=a $$
+	$$ a\textrm{\^{}} b^+ =a\textrm{\^{}}b \times a $$
+
+Exponentiation is neither commutative nor associative. Usually, it is right-associative, so $ a\textrm{\^{}}b\textrm{\^{}}c $ 
+gets interpreted as $ a\textrm{\^{}}(b\textrm{\^{}}c). $
+
+Sometimes, we don't use any symbol to express exponentiation, instead choosing to write $a^b$ where the $b$ being on top signifies exponentiation.
+Then, $a^b=a\textrm{\^{}}b.$
+
+A more intuitive definition is: $a^b=a\times a\times\ldots\times a $ (with $b$ ``$a$"s). However, higher level operaations were not developed 
+for a long time, until recently. People used to "create" many numbers, name them, and use them to express any positive integer.
